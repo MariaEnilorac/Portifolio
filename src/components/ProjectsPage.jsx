@@ -20,7 +20,6 @@ function ProjectsPage() {
         <div className="projects-list">
           {projects.map((project) => (
             <div key={project.id} className="project-card">
-              {/* Verifica se a URL é de um vídeo local (mp4) ou de um link de vídeo externo */}
               {project.videoUrl && project.videoUrl.endsWith(".mp4") ? (
                 <video src={project.videoUrl} title={project.title} controls></video>
               ) : (
