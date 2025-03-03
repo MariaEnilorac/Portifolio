@@ -1,5 +1,5 @@
 import "../styles/components/projects.sass";
-import "../styles/components/sidebar.sass";
+import { Link } from "react-router-dom";
 
 import Ismalia from "../videos/gerenciador-de-projetos.mp4"; 
 import GerenciadordeProjetos from "../videos/gerenciador-de-projetos.mp4"; 
@@ -38,9 +38,14 @@ function ProjectsPage() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
             </div>
+            
           ))}
         </div>
-      </div>
+        <div className="button"> <Link to="/" className="btn">
+        Voltar
+      </Link></div>
+       
+            </div>
     </div>
   );
 }
