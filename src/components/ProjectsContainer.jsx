@@ -1,4 +1,3 @@
-// src/components/ProjectsContainer.jsx
 import { Link } from "react-router-dom";
 
 const ProjectsContainer = () => {

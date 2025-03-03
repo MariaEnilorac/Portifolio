@@ -3,7 +3,7 @@ import InformationContainer from "./InformationContainer";
 
 import Avatar from "../img/MariaCaroline.jpeg";
 
-import "../styles/components/Sidebar.sass";
+import "../styles/components/sidebar.sass";
 
 const Sidebar = () => {
   return (
