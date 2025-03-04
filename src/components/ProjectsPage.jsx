@@ -10,11 +10,11 @@ import ListadeTarefas from "../videos/lista-de-tarefas.mp4";
 
 function ProjectsPage() {
   const projects = [
-    { id: 1, title: "Poema Ismália", description: "Descrição do Projeto 1", videoUrl: Ismalia },
-    { id: 2, title: "Gerenciador de Projetos", description: "Descrição do Projeto 2", videoUrl: GerenciadordeProjetos },
-    { id: 3, title: "Consulta de clima", description: "Descrição do Projeto 3", videoUrl: ConsultadeClima },
-    { id: 4, title: "Gerenciador de tarefas", description: "Descrição do Projeto 4", videoUrl: GerenciadordeTarefas },
-    { id: 5, title: "Lista de Tarefas", description: "Descrição do Projeto 5", videoUrl: ListadeTarefas },
+    { id: 1, title: "Poema Ismália", description: "Este é um projeto HTML e CSS que apresenta o poema Ismália de Alphonsus Guimaraens. O objetivo é criar uma apresentação visual agradável do poema com diferentes seções e estilos.", videoUrl: Ismalia },
+    { id: 2, title: "Gerenciador de Projetos", description: "Este é um aplicativo de gerenciamento de projetos desenvolvido em React. Ele permite criar, visualizar, editar e excluir projetos, além de categorizar e gerenciar orçamentos.", videoUrl: GerenciadordeProjetos },
+    { id: 3, title: "Consulta de clima", description: "Este projeto é uma aplicação simples de consulta de clima utilizando a API do OpenWeatherMap. A aplicação permite que o usuário insira o nome de uma cidade, e retorna as informações do clima atual, como a temperatura e o ícone representando as condições climáticas.", videoUrl: ConsultadeClima },
+    { id: 4, title: "Gerenciador de tarefas", description: "Um simples aplicativo de gerenciamento de tarefas construído com React e uma API local para adicionar, remover e marcar tarefas como concluídas.", videoUrl: GerenciadordeTarefas },
+    { id: 5, title: "Lista de Tarefas", description: "Este projeto é uma aplicação simples de Lista de Tarefas (To-Do List) desenvolvida em React. A aplicação permite adicionar, remover, completar e filtrar tarefas, além de oferecer funcionalidade de pesquisa.", videoUrl: ListadeTarefas },
     { id: 6, title: "Projeto 6", description: "Descrição do Projeto 6", videoUrl: Ismalia },
   ];
 
